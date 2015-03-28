@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XVCDSideBarController.h"
+@interface ViewController : UIViewController <XVCDSideBarControllerDelegate>
 
-@interface ViewController : UIViewController
-
+@property (nonatomic, strong) XVCDSideBarController *sideBarController;
 
 @end
 

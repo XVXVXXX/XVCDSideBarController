@@ -14,6 +14,7 @@
 		F996D2941AC69C92004AF2EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F996D2931AC69C92004AF2EE /* Images.xcassets */; };
 		F996D2971AC69C92004AF2EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F996D2951AC69C92004AF2EE /* LaunchScreen.xib */; };
 		F996D2A31AC69C92004AF2EE /* XVCDSideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F996D2A21AC69C92004AF2EE /* XVCDSideBarTests.m */; };
+		F996D2AF1AC69EEB004AF2EE /* XVCDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F996D2AE1AC69EEB004AF2EE /* XVCDSideBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F996D29C1AC69C92004AF2EE /* XVCDSideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XVCDSideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F996D2A11AC69C92004AF2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F996D2A21AC69C92004AF2EE /* XVCDSideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XVCDSideBarTests.m; sourceTree = "<group>"; };
+		F996D2AD1AC69EEB004AF2EE /* XVCDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XVCDSideBarController.h; path = XVCDSideBarController/XVCDSideBarController.h; sourceTree = "<group>"; };
+		F996D2AE1AC69EEB004AF2EE /* XVCDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XVCDSideBarController.m; path = XVCDSideBarController/XVCDSideBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		F996D27A1AC69C92004AF2EE = {
 			isa = PBXGroup;
 			children = (
+				F996D2AC1AC69E98004AF2EE /* XVCDSideBarController */,
 				F996D2851AC69C92004AF2EE /* XVCDSideBar */,
 				F996D29F1AC69C92004AF2EE /* XVCDSideBarTests */,
 				F996D2841AC69C92004AF2EE /* Products */,
@@ -117,6 +121,15 @@
 				F996D2A11AC69C92004AF2EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F996D2AC1AC69E98004AF2EE /* XVCDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				F996D2AD1AC69EEB004AF2EE /* XVCDSideBarController.h */,
+				F996D2AE1AC69EEB004AF2EE /* XVCDSideBarController.m */,
+			);
+			name = XVCDSideBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F996D28F1AC69C92004AF2EE /* ViewController.m in Sources */,
+				F996D2AF1AC69EEB004AF2EE /* XVCDSideBarController.m in Sources */,
 				F996D28C1AC69C92004AF2EE /* AppDelegate.m in Sources */,
 				F996D2891AC69C92004AF2EE /* main.m in Sources */,
 			);
